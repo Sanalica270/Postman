@@ -1,0 +1,1 @@
+{"errors":{"msg":[{"value":"123","msg":"PASSWORD_TOO_SHORT_MIN_5","param":"password","location":"body"}]}}
