@@ -2123,15 +2123,15 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "Sunny"
+							"value": "{{name}}"
 						},
 						{
 							"key": "email",
-							"value": "valjevka@outlook.com"
+							"value": "{{email}}"
 						},
 						{
 							"key": "password",
-							"value": "Valjevo011"
+							"value": "{{pass}}"
 						}
 					],
 					"options": {
@@ -2506,11 +2506,11 @@
 					"urlencoded": [
 						{
 							"key": "email",
-							"value": "valjevka@outlook.com"
+							"value": "{{email}}"
 						},
 						{
 							"key": "password",
-							"value": "Valjevo011",
+							"value": "{{pass}}",
 							"type": "text"
 						}
 					],
@@ -2682,91 +2682,91 @@
 	],
 	"variable": [
 		{
-			"id": "d204c97e-328b-4032-969c-daa5c6f2f5f3",
+			"id": "3a51525c-b53f-42b1-a909-66163fd8436b",
 			"key": "baseUrl",
 			"value": "https://api-demo.daniel-avellaneda.com",
 			"type": "string"
 		},
 		{
-			"id": "d0061bd9-5ede-46a6-96e0-267f5a5f4f28",
+			"id": "9bc7e2d7-4689-4673-8bf1-7ad1a48c5015",
 			"key": "token",
 			"value": "e372b1b2292d0d9e6ba452d2d8a3e5f58079b8342bd68cc76b7ad5c9e569f2c8a0135fcc033c038e2a12912749784dd872c2d68d39d301499253825afe086199cfad4434eb1b12a01e6fd634302f34aad34e0bf9f974f4423a752518079858c2f8dde98fc3056348fdc7130771fc5a868cc47510c85063a50e389c112f30f626b356a21bdf7bc11ed4e63142ae4fd827cc04c7c0e71b8abe43f83e9eae4e8727367778f710f451782bcdd668396a95cca6247875d422f500834c2c5a605bd175",
 			"type": "string"
 		},
 		{
-			"id": "50a22178-e0b8-41cd-8f3b-a3c38b0c0483",
+			"id": "02cd9fb8-76a5-44ad-be85-8fbda9a72935",
 			"key": "id",
 			"value": "23496841-a8eb-4a19-957d-913d38c2070f",
 			"type": "string"
 		},
 		{
-			"id": "77f230f6-d149-4564-a6ab-f7e8cdd6a9a6",
+			"id": "86601baa-c4ae-41e0-9a16-fcadd4a5532e",
 			"key": "email",
 			"value": "valjevka@outlook.com",
 			"type": "string"
 		},
 		{
-			"id": "d7c811a4-e576-48a8-81dc-981376e68340",
+			"id": "97e354a2-04e1-499d-8825-1aed611168e5",
 			"key": "pass",
 			"value": "Beograd014",
 			"type": "string"
 		},
 		{
-			"id": "34cb450d-cc8c-4b0b-b290-92f8994f65ec",
+			"id": "3aed7dab-d640-421d-b22d-932e8725e8c1",
 			"key": "userToken",
 			"value": "e372b1b2292d0d9e6ba452d2d8a3e5f58079b8342bd68cc76b7ad5c9e569f2c8a0135fcc033c038e2a12912749784dd8c5d31aa4e8513cad2ee5f858fb1458c23a5b88718035b2f16e56ba0a5220a5f578a7de8bcb487ac2278507f448cbcdca55133153a2636c6e944445123a40074e792b75241107b60c4d6155aae111dc64cc440d41e6ecd065dc19a09bf7c725947bb327af2f793202bce4bf69a249541a3d2ede42893d1e1ca45c5af6a62f8e2c04c40749b11f37ab6c517657400be5c8",
 			"type": "string"
 		},
 		{
-			"id": "7d11f32f-15b9-4f18-8973-186a45d6c6fe",
+			"id": "0be83b27-ac84-414f-b7d6-9f0b318de5b0",
 			"key": "adminToken",
 			"value": "e372b1b2292d0d9e6ba452d2d8a3e5f58079b8342bd68cc76b7ad5c9e569f2c8a0135fcc033c038e2a12912749784dd8c5d31aa4e8513cad2ee5f858fb1458c23a5b88718035b2f16e56ba0a5220a5f5bf6606854d6b076be9a68610b2ced7a9c5026adf42fa7fd2325fdb98ea5f528bf7c19622f4f836b3c0ca26b5769c3f1086d64c64f5d26af560b4f0c989c293ee6df1ec11b745761ebba719e90b1dc74aabcbbb7be453516858afff95ccb062b8be90c1f68d89a742ce133faab250f195",
 			"type": "string"
 		},
 		{
-			"id": "2f56287c-abc9-41fe-a698-6bc4f9083684",
+			"id": "f47d7bb6-4d31-4c06-a0b6-2a7b9d7f4a54",
 			"key": "adminEmail",
 			"value": "admin@admin.com",
 			"type": "string"
 		},
 		{
-			"id": "0a693aae-7cf3-4f90-8c42-f5d2abd3ba1a",
+			"id": "5af755eb-9c61-4211-9229-e9686ef33a3a",
 			"key": "adminPass",
 			"value": "12345",
 			"type": "string"
 		},
 		{
-			"id": "2456d6fc-392d-4d36-b39c-d800786462f0",
+			"id": "fbe9a7cc-0799-43f9-ae70-758e31d2123d",
 			"key": "userEmail",
 			"value": "user@user.com",
 			"type": "string"
 		},
 		{
-			"id": "d6806b40-0c78-436d-94d7-bed58db45280",
+			"id": "02ae78d8-c761-44a8-ad27-4069e235022b",
 			"key": "adminID",
 			"value": "5ec061c37d2bb1079c9319f0",
 			"type": "string"
 		},
 		{
-			"id": "b5133279-00e0-41e2-8ece-698732d38aff",
+			"id": "7f02a08d-883a-472f-bd53-ea7433474356",
 			"key": "userID",
 			"value": "5aa1c2c35ef7a4e97b5e995b",
 			"type": "string"
 		},
 		{
-			"id": "973d20fe-344c-4ec0-9156-33784c407b9f",
+			"id": "00e39288-9a81-43e3-a746-e77f4f9bf49d",
 			"key": "pass2",
 			"value": "Valjevo011",
 			"type": "string"
 		},
 		{
-			"id": "5d9c6370-4466-4df0-be91-31f56c3beca3",
+			"id": "89b4c8e7-ca2a-46a7-a05e-e8fa9d351ab9",
 			"key": "name",
 			"value": "Sunny",
 			"type": "string"
 		},
 		{
-			"id": "51db3bce-f89f-4d9f-a114-fbafe96c582d",
+			"id": "1ae7d6ce-5544-4974-8e90-759d3d2cc69c",
 			"key": "userPass",
 			"value": "12345",
 			"type": "string"
